@@ -1,0 +1,47 @@
+*{
+    font-family: "Inria Serif", serif;
+}
+
+
+
+
+.background-banner{
+    background-image: url(../images/Backgorund.png);
+    height: 765px;
+    background-size: cover;
+}
+
+.nav{
+    margin-right: 39px;
+    margin-left: 171px;
+}
+.nav .nav-link{
+    color: #FFF;
+    font-size: 38px;
+    font-family: inria-serif;
+    margin-right: 36px;
+    font-weight: 400;
+}
+
+
+.main-text-container{
+    height: 500px;
+}
+
+.main-text{
+    color: #FFF;
+    font-size: 64px;
+    font-family: "La Belle Aurore", cursive;
+}
+
+.main-text span{
+    border-bottom: 3px solid #FFF;
+}
+
+#subtext-main-page{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    margin-top: 60px;
+}
