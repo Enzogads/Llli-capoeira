@@ -2,15 +2,15 @@
     font-family: "Inria Serif", serif;
 }
 
+/* Variáveis */
 
-
-
-.background-banner{
-    background-image: url(../images/Backgorund.png);
-    height: 765px;
-    background-size: cover;
+:root{
+    --primary-color: #5E9C49
 }
 
+
+
+/* NAV BAR */
 .nav{
     margin-right: 39px;
     margin-left: 171px;
@@ -23,6 +23,13 @@
     font-weight: 400;
 }
 
+
+/* Banner Inicial */
+.background-banner{
+    background-image: url(../images/Backgorund.png);
+    height: 765px;
+    background-size: cover;
+}
 
 .main-text-container{
     height: 500px;
@@ -45,3 +52,27 @@
     color: #FFF;
     margin-top: 60px;
 }
+
+/* Conheça o projeto */
+
+.green-title{
+    color: var(--primary-color);
+}
+
+.meeting-project{
+    background-color: #C5DEBF;
+    height: 1132px;
+}
+
+.meeting-project h1{
+    padding: 89px;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.meet-text{
+    font-size: 32px;
+    color: #434343;
+}
+
+
